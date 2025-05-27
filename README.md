@@ -14,7 +14,6 @@ Disusun oleh: **David Mario Yohanes Samosir**
 - [🧱 Materi dan Tahapan Praktikum](#-materi-dan-tahapan-praktikum)
 - [📚 Penjelasan Tambahan: Subnetting & IP Address](#-penjelasan-tambahan-subnetting--ip-address)
 - [🛠 Tools yang Digunakan](#-tools-yang-digunakan)
-- [📂 Struktur Direktori](#-struktur-direktori)
 - [📥 Cara Menggunakan](#-cara-menggunakan)
 - [📧 Kontak](#-kontak)
 
@@ -142,23 +141,6 @@ Praktikum Jaringan Komputer ini bertujuan memberikan pemahaman mendalam tentang 
 
 ---
 
-## 📂 Struktur Direktori
-
-```
-
-Praktikum-Jaringan-Komputer/
-│
-├── 01\_Pengenalan\_Jaringan/
-├── 02\_Subnetting/
-├── 03\_Konfigurasi\_Dasar/
-├── 04\_VLAN\_dan\_InterVLAN/
-├── 05\_Static\_dan\_Dynamic\_Routing/
-├── 06\_DHCP\_DNS\_Server/
-├── 07\_Remote\_Access/
-├── 08\_Keamanan\_Jaringan/
-└── README.md
-
-````
 
 ---
 
