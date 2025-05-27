@@ -1,4 +1,3 @@
-
 # 🌐 Praktikum Jaringan Komputer
 
 Selamat datang di repositori **Praktikum Jaringan Komputer**!  
@@ -13,6 +12,7 @@ Disusun oleh: **David Mario Yohanes Samosir**
 - [📌 Tujuan Praktikum](#-tujuan-praktikum)
 - [🧱 Materi dan Tahapan Praktikum](#-materi-dan-tahapan-praktikum)
 - [📚 Penjelasan Tambahan: Subnetting & IP Address](#-penjelasan-tambahan-subnetting--ip-address)
+- [🧩 Penjelasan OSI Layer](#-penjelasan-osi-layer)
 - [🛠 Tools yang Digunakan](#-tools-yang-digunakan)
 - [📥 Cara Menggunakan](#-cara-menggunakan)
 - [📧 Kontak](#-kontak)
@@ -133,14 +133,27 @@ Praktikum Jaringan Komputer ini bertujuan memberikan pemahaman mendalam tentang 
 
 ---
 
+## 🧩 Penjelasan OSI Layer
+
+Model OSI (Open Systems Interconnection) menjelaskan bagaimana data berpindah dari satu perangkat ke perangkat lain dalam jaringan. Model ini terdiri dari 7 layer, dari level fisik hingga level aplikasi.
+
+| Layer | Nama Layer        | Fungsi Utama                                                           | Contoh Perangkat / Protokol        |
+|-------|--------------------|------------------------------------------------------------------------|-------------------------------------|
+| 7     | **Application**    | Interaksi langsung dengan aplikasi pengguna                            | Web browser, FTP, HTTP, DNS         |
+| 6     | **Presentation**   | Translasi data, enkripsi, dan kompresi                                 | SSL/TLS, JPEG, MPEG                 |
+| 5     | **Session**        | Mengelola sesi komunikasi antara dua host                              | NetBIOS, RPC                        |
+| 4     | **Transport**      | Menyediakan pengiriman data yang reliabel                              | TCP, UDP                            |
+| 3     | **Network**        | Routing data antar jaringan dan pengalamatan logis (IP)                | Router, IP, OSPF, ICMP              |
+| 2     | **Data Link**      | Penanganan MAC address, framing, dan error detection                   | Switch, Bridge, ARP                 |
+| 1     | **Physical**       | Media fisik transmisi bit digital                                     | Kabel, NIC, Hub, Repeater           |
+
+---
+
 ## 🛠 Tools yang Digunakan
 
 - ✅ Cisco Packet Tracer  
 - ✅ Text Editor (Notepad++ / VSCode)  
 - ✅ [Optional] GNS3 untuk simulasi lebih kompleks  
-
----
-
 
 ---
 
